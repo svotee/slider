@@ -1,0 +1,121 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}  
+.nav>p:hover{
+    background-color:rgb(236, 236, 236) ;
+}
+.nav>p{
+    padding: 1% 4%;
+}
+.modalwin {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(146, 145, 145, 0.5);
+    top: 0px;
+    left: 0px;
+}
+.datawin {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.closewin {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-color: rgb(180, 180, 180);
+    top: 14%;
+    left: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 34px;
+}
+.closewin>p{
+    margin-left: 35%;
+    color: rgb(238, 147, 147);
+}
+.displaynone{
+    display: none;
+}
+
+.closewin:hover{
+    background-color:rgb(236, 236, 236) ;
+}
+.name , .mail , .phone {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.submit {
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.imagine {
+    width: 100%;
+}
+a {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.slider>button {
+    padding: 10px 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+a:hover{
+    background-color:rgb(236, 236, 236) ;
+    padding: 1% 4%;
+}
+
+.slider>img{
+    width: 600px;
+    height: 350px;
+}
+.slider{
+    margin-top: 10%;
+}
+.dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(209, 209, 209);
+    margin: 15px;
+    border: 1px solid black;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.activedot{
+    background-color: gray;
+}
+
